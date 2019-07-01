@@ -1,0 +1,163 @@
+
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Poppins'
+        }
+
+
+        .navbar-nav a {
+            color: #212121;
+            font-size: 15px;
+        }
+
+       
+        .hero-text {
+            color: white;
+           
+        }
+        @media screen and (min-width: 420px){
+            .hero-image{
+                height: 662px;
+                }
+
+            .hero-text h1{
+                font-size:64px; 
+                padding-top:100px;
+                width:460px;
+            }
+            .hero-text p{
+                width:470px;
+            }
+
+       
+           
+        }
+
+        @media screen and (max-width: 419px){
+            .hero-image{
+                height:500px;
+            }
+
+            .hero-text h1{
+            font-size:32px; 
+            padding-top:50px;
+            }
+        
+        }
+        nav .row {
+            margin-top: 20px;
+        }
+
+        .icon-bar{
+            background-color: black;
+        }  
+       
+   
+
+        #about .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width:512px;
+        }
+        
+        @media screen and (max-width: 419px){
+        #about .centered {
+            width: 100%;
+        }
+      }
+
+        #about .centered p{
+            font-size: 14px;
+        }
+
+        #contactform{
+          max-width: 550px;
+          margin-bottom: 150px;
+        }
+
+        .btn-outline-primary{
+          color: #2C5E2E; 
+          border-color: #2C5E2E; 
+          background-color: #FFF;
+        }
+
+        #contactform .inputstyle{
+            margin: 30px 0 10px 0;
+            
+        }
+
+        #contactform .errormsg{
+            color: red;
+            font-size:14px;
+           
+        }
+
+
+        .line{
+            width:65px;
+            border-bottom: 5px solid;
+            border-bottom-color: #2C5E2E;
+            margin:0 auto;
+            
+        }
+
+        .startBtnStyle{
+          
+            border: 1px solid white;
+            color: white;
+            padding: 8px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top:30px;
+        }
+
+        .startBtnStyle:hover{
+            color:#2c5E2E;
+            background-color: white;
+        }
+
+        #serviceDetails .font-weight-normal{
+            color:#EEEEEE;
+            font-size: 64px;
+            font-weight:bold;
+        }
+
+        #serviceDetails{
+            margin-top:20px;
+        }
+
+        #serviceDetails h4{
+            color:#2C5E2E;
+            font-size:22px;
+        }
+
+        #serviceDetails p{
+            font-size:14px;
+        }
+
+        #ourServices{
+            margin-top: 80px;
+            margin-bottom:50px;
+        }
+
+        .form-control{
+            border-radius: 0 !important;   
+        }
+
+        .form-control input{
+            height: 50px !important;
+        }
+
+        #contactform .btn{
+            border-radius: 0 !important;
+        }
+
+        .nav a, nav a{
+            letter-spacing: 1px;
+        }
+
+  
