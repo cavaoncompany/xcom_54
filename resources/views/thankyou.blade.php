@@ -24,18 +24,20 @@
         margin-top:50px;
     }
     
- 
- 
-    @media only screen and (min-width: 767px){
-    .thanksblock{
-        height: 90vh;
+    @media screen and (max-width: 419px){
+        .thanksblock{
+            min-height: 500px;
         }
     }
-    
+    @media screen and (min-width: 420px){
+        .thanksblock{
+            min-height: 700px;
+        }
+    }
     .thanksblock{
         display: flex;
-        /* justify-content: center;
-        align-items: center; */
+        justify-content: center;
+        align-items: center;
        
     }
 
@@ -43,29 +45,38 @@
        
         width: 550px;
         height: 200px;
-        margin:auto;
+    }
+    
+    .icon-bar {
+        background-color: black;
     }
 
     footer{
         margin-right:-10px;
     }
-
-
-
 </style>
 <body>
     <nav class="navbar ">
         <div class="container align-center">
             <div class="row">
-                <div class=" col-md-6  ">
-                    
+                <div class=" col-md-6  my-5">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a href="/"><img src="../images/xcomlogo.png" alt="logo"></a>
                 </div>
-                <div class="nav navbar-nav navbar-right" >
-                    
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="/#ourServices">SERVICE</a></li>
+                        <li><a href="/#about">ABOUT</a></li>
+                        <li><a href="/#contactform">CONTACT</a></li>
                         <li style="color:#2c5e2e; padding: 13px 0 0 30px;">
-                            <img src="../images/phoneicon.png"/>&nbsp; &nbsp; +61430429687
-                        </li>              
+                            <img src="../images/phoneicon.png"/> +61430429687
+                        </li> 
+                    </ul>
+
                 </div>
             </div>
         </div>
@@ -82,16 +93,15 @@
         </div>
     </div>
 
-
-
    
-    <footer class="container-fluid py-4" style=" background: #153f17; margin-top:50px; padding:20px; color:#FFF">
-        
+     <footer class="container-fluid py-4" style=" background: #153f17; margin-top:50px; padding:20px; color:#FFF">
+        <div class="row ">
             <div class="col-md-4 text-center" style="padding: 20px 0 10px 0">
 
                 <nav>
-                    <a style="color:white; margin:5px 30px; font-size:15px;" href="#ourServices">HOME</a>
-                   
+                    <a style="color:white; margin:5px 30px; font-size:15px;" href="/#ourServices">SERVICES</a>
+                    <a style="color:white; margin:5px; font-size:15px;" href="/#about">ABOUT</a>
+                    <a style="color:white; margin:30px; font-size:15px;" href="/#contactform">CONTACT</a>
                 </nav>
             </div>
             <div class="col-md-4 text-center" style="padding: 10px 0;">
@@ -101,6 +111,7 @@
                 <p style="font-size:14px; padding: 25px 0 10px 0;">Copyright © 2019 Xcom IT Solution. All rights reserved.</p>
             </div>
 
+        </div>
     </footer>
 
 

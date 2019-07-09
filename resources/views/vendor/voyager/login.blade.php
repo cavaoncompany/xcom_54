@@ -62,6 +62,7 @@
 
     .centered-image{
         margin:auto;
+        height:50px;
     }
 </style>
 <body class="login">
@@ -70,7 +71,7 @@
         
         <div class="col-xs-12 col-sm-7 col-md-8 leftside">
     
-            <img class="centered-image" src="http://staging.xcomit.com.au/images/xcomlogo.png">
+            <img class="centered-image" src="http://xcomit.com.au/images/xcomlogo.png">
 
         </div>
        

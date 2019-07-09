@@ -23,8 +23,17 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="xcomstyle.css?ver={{date('YmdHis')}}">
 
-   
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143204356-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-143204356-1');
+</script>
 </head>
+
 <style>
      #about {
         position: relative;
@@ -42,7 +51,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        height: 662px;
+       
         }
 </style>
 <body>

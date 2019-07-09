@@ -145,7 +145,7 @@
                     <?php array_push($id, $data->id); ?>
                     @endforeach
                     <div class="text-left col-md-12">
-                            <a href="http://staging.xcomit.com.au/admin/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
+                            <a href="http://xcomit.com.au/admin/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
                     </div>
             </div>
         
@@ -160,7 +160,7 @@
             <?php array_push($id, $data->id); ?>
             @endforeach
             <div class="col-md-12 text-left">
-                <a href="http://staging.xcomit.com.au/admin/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
+                <a href="http://xcomit.com.au/admin/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
             </div>
         </div>
         <div class="col-md-12 card">
@@ -174,7 +174,7 @@
             <?php array_push($id, $data->id); ?>
             @endforeach
             <div class="col-md-12 text-left">
-                <a href="http://staging.xcomit.com.au/admin/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
+                <a href="http://xcomit.com.au/admin/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
             </div>
         </div>
 
@@ -189,7 +189,7 @@
             <?php array_push($id, $data->id); ?>
             @endforeach
             <div class="text-left col-md-12">
-                    <a href="http://staging.xcomit.com.au/admin/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
+                    <a href="http://xcomit.com.au/admin/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
             </div>
         </div>
 
@@ -204,7 +204,7 @@
             <?php array_push($id, $data->id); ?>
             @endforeach
             <div class="text-left col-md-12">
-                    <a href="http://staging.xcomit.com.au/admin/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
+                    <a href="http://xcomit.com.au/admin/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
             </div>
         </div>
         
@@ -225,7 +225,7 @@
                 <?php array_push($id, $data->id); ?>
                 @endforeach
                 <div class="col-md-12 text-left">
-                    <a href="http://staging.xcomit.com.au/admin/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
+                    <a href="http://xcomit.com.au/admin/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
                 </div>
             </div>
             
@@ -241,7 +241,7 @@
                 <?php array_push($id, $data->id); ?>
                 @endforeach
                 <div class="col-md-12 text-left">
-                    <a href="http://staging.xcomit.com.au/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
+                    <a href="http://xcomit.com.au/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
                 </div>
             </div>
 
@@ -257,7 +257,7 @@
                 <?php array_push($id, $data->id); ?>
                 @endforeach
                 <div class="col-md-12 text-left">
-                    <a href="http://staging.xcomit.com.au/admin/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
+                    <a href="http://xcomit.com.au/admin/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
                 </div>
             </div>
 
@@ -273,7 +273,7 @@
                 <?php array_push($id, $data->id); ?>
                 @endforeach
                 <div class="col-md-12 text-left">
-                    <a href="http://staging.xcomit.com.au/admin/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
+                    <a href="http://xcomit.com.au/admin/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
                 </div>
             </div>
 
@@ -289,7 +289,7 @@
                 <?php array_push($id, $data->id); ?>
                 @endforeach
                 <div class="col-md-12 text-left">
-                    <a href="http://staging.xcomit.com.au/admin/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
+                    <a href="http://xcomit.com.au/admin/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
                 </div>
             </div>
         </div>
@@ -308,7 +308,7 @@
                 <?php array_push($id, $data->id); ?>
                 @endforeach
                 <div class="col-md-12 text-left">
-                    <a href="http://staging.xcomit.com.au/admin/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
+                    <a href="http://xcomit.com.au/admin/xcomcontent/{{implode("|",$id)}}/edit" class="card-link btn btn-warning" type="button" >Edit</a>
                 </div>
             </div>
         </div>

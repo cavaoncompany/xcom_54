@@ -1,0 +1,48 @@
+[08-Jul-2019 00:18:45 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/xcomitco/public_html/cavaon/routes/api.php): failed to open stream: Permission denied' in /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php:327
+Stack trace:
+#0 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php(327): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/x...', '/home/xcomitco/...', 327, Array)
+#1 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php(327): Illuminate\Routing\Router::loadRoutes()
+#2 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php(283): Illuminate\Routing\Router->loadRoutes('/home/xcomitco/...')
+#3 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(104): Illuminate\Routing\Router->group(Array, '/home/xcomitco/...')
+#4 /home/xcomitco/public_html/cavaon/app/Providers/RouteServi in /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 327
+[08-Jul-2019 00:18:45 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/xcomitco/public_html/cavaon/routes/api.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 327
+[08-Jul-2019 00:18:50 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/xcomitco/public_html/cavaon/routes/api.php): failed to open stream: Permission denied' in /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php:327
+Stack trace:
+#0 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php(327): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/x...', '/home/xcomitco/...', 327, Array)
+#1 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php(327): Illuminate\Routing\Router::loadRoutes()
+#2 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php(283): Illuminate\Routing\Router->loadRoutes('/home/xcomitco/...')
+#3 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(104): Illuminate\Routing\Router->group(Array, '/home/xcomitco/...')
+#4 /home/xcomitco/public_html/cavaon/app/Providers/RouteServi in /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 327
+[08-Jul-2019 00:18:50 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/xcomitco/public_html/cavaon/routes/api.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 327
+[08-Jul-2019 00:18:54 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/xcomitco/public_html/cavaon/routes/api.php): failed to open stream: Permission denied' in /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php:327
+Stack trace:
+#0 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php(327): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/x...', '/home/xcomitco/...', 327, Array)
+#1 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php(327): Illuminate\Routing\Router::loadRoutes()
+#2 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php(283): Illuminate\Routing\Router->loadRoutes('/home/xcomitco/...')
+#3 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(104): Illuminate\Routing\Router->group(Array, '/home/xcomitco/...')
+#4 /home/xcomitco/public_html/cavaon/app/Providers/RouteServi in /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 327
+[08-Jul-2019 00:18:54 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/xcomitco/public_html/cavaon/routes/api.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 327
+[08-Jul-2019 00:19:19 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/xcomitco/public_html/cavaon/routes/api.php): failed to open stream: Permission denied' in /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php:327
+Stack trace:
+#0 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php(327): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/x...', '/home/xcomitco/...', 327, Array)
+#1 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php(327): Illuminate\Routing\Router::loadRoutes()
+#2 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php(283): Illuminate\Routing\Router->loadRoutes('/home/xcomitco/...')
+#3 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(104): Illuminate\Routing\Router->group(Array, '/home/xcomitco/...')
+#4 /home/xcomitco/public_html/cavaon/app/Providers/RouteServi in /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 327
+[08-Jul-2019 00:19:19 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/xcomitco/public_html/cavaon/routes/api.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 327
+[08-Jul-2019 00:19:21 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/xcomitco/public_html/cavaon/routes/api.php): failed to open stream: Permission denied' in /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php:327
+Stack trace:
+#0 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php(327): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/x...', '/home/xcomitco/...', 327, Array)
+#1 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php(327): Illuminate\Routing\Router::loadRoutes()
+#2 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php(283): Illuminate\Routing\Router->loadRoutes('/home/xcomitco/...')
+#3 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(104): Illuminate\Routing\Router->group(Array, '/home/xcomitco/...')
+#4 /home/xcomitco/public_html/cavaon/app/Providers/RouteServi in /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 327
+[08-Jul-2019 00:19:21 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/xcomitco/public_html/cavaon/routes/api.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 327
+[08-Jul-2019 00:19:24 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'require(/home/xcomitco/public_html/cavaon/routes/api.php): failed to open stream: Permission denied' in /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php:327
+Stack trace:
+#0 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php(327): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/x...', '/home/xcomitco/...', 327, Array)
+#1 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php(327): Illuminate\Routing\Router::loadRoutes()
+#2 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php(283): Illuminate\Routing\Router->loadRoutes('/home/xcomitco/...')
+#3 /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(104): Illuminate\Routing\Router->group(Array, '/home/xcomitco/...')
+#4 /home/xcomitco/public_html/cavaon/app/Providers/RouteServi in /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 327
+[08-Jul-2019 00:19:24 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/xcomitco/public_html/cavaon/routes/api.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/xcomitco/public_html/cavaon/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 327
