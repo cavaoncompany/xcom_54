@@ -216,7 +216,7 @@
 
            @foreach ($servicetitledata as $data)
            <div class="col-md-12 card">
-                <h4 class="col-md-12 card-header">{{$data->part}}</h4>
+                <h4 class="col-md-12 card-header">Service Title</h4>
                 <?php $id=array() ?>
                 <div class="col-md-6 itemStyle">
                     <h5>{{preg_replace('/(?<!\ )[A-Z]/', ' $0', $data->category)}}</h5>
